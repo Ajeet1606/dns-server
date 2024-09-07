@@ -1,0 +1,9 @@
+DNS runs on UDP protocol.
+
+1. get dgram package from nodejs.
+2. in each request, server gets two things:
+    -> msg: Binary message  -> use dns-packet to decode the msg.
+    -> remoteInfo: address, port etc.
+
+3. nslookup website_url for deployed version
+3. nslookup hello.world 127.0.0.1 for getting data form your DNS.
