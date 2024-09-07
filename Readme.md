@@ -1,0 +1,1 @@
+This repository contains a simple DNS server which run on localhost and simlates a request response flow of DNS lookup.
