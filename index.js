@@ -55,5 +55,5 @@ server.on("message", (msg, rinfo) => {
 });
 
 server.bind(53, () => {
-  console.log("server listening on " + server.address().port);
+  console.log("DNS server listening on " + server.address().port);
 });
